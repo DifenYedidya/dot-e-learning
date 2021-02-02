@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #222d32 !important;
+}
+
+.navbar{
+    position: sticky;
+}
+
+.navbar ul li:hover {
+  background: #ea1d63;
+  border-radius: 8px;
+}
+
+.global-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 24px ;
+  align-items: center;
+  justify-content: center;
+}
+
+.column{
+    top: 50%;
+    width: 100%;
+    text-align:left;
+}
+.col-sm-6 {
+  margin: 24px;
+  min-width: 360px;
+}
+
+.card {
+  padding: 8px;
+  width: 80%;
+}
